@@ -5,8 +5,8 @@ import datetime
 
 app = Flask(__name__,
             static_url_path='',
-            static_folder = '/Users/apple/Documents/Lambton College/Sem 2/AML 2404/Project/Untitled Folder/templates/static',
-            template_folder='/Users/apple/Documents/Lambton College/Sem 2/AML 2404/Project/Untitled Folder/templates')
+            static_folder = 'templates/static',
+            template_folder='templates')
 model = pickle.load(open('model.pkl', 'rb'))
 modelvect = pickle.load(open('modelvect.pkl','rb'))
 
