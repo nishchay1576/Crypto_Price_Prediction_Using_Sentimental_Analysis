@@ -1,1 +1,1 @@
-# crytpo_price_prediction
+# Crypto_Price_Prediction_Using_Sentimental_Analysis
